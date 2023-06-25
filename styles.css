@@ -58,10 +58,11 @@
   }
 
   .flex-pics {
-    width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
     display:flex;
     flex: 1;
-    align-items: right;
+    align-items: center;
    
   }
 
