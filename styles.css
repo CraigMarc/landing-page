@@ -3,8 +3,8 @@
     height: 75px;
   }
   .main-img {
-    width: 100px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
   }
   .pics-img {
     width: 200px;
@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     
-    background-color: white;
+    background-color: grey;
   }
   
   nav > ul {
@@ -31,3 +31,22 @@
     list-style: none;
     font-size: 20px;
     padding-right: 80px;
+  }
+  
+  .main {
+    height: 400px;
+    width: 100%;
+    padding-left: 200px;
+    background-color: grey;
+    padding-bottom: 50px;
+  }
+  
+  .main-flex {
+    
+    padding-top: 100px;
+    display: flex;
+    flex: 1;
+    align-items: right;
+    gap: 100px;
+  }
+  
