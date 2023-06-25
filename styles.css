@@ -36,18 +36,23 @@
   .main {
     height: 400px;
     width: 100%;
-    padding-left: 200px;
+    
     background-color: grey;
     padding-bottom: 50px;
   }
   
   .main-flex {
-    
-    padding-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 50px;
     display: flex;
     flex: 1;
     align-items: right;
     gap: 100px;
+  }
+
+  .main-flex > div {
+    margin: auto;
   }
 
   .pics {
@@ -68,5 +73,25 @@
 
   .picchild {
     margin: auto;
+  }
+
+  .quote {
+    display: flex;
+    flex: 1
+    height: 150px;
+    background-color: aquamarine;
+  }
+.quote > div {
+   margin: auto; 
+}
+
+  .quotetext {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .quoter {
+    text-align: right;
   }
   
