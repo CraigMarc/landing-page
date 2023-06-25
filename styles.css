@@ -49,4 +49,23 @@
     align-items: right;
     gap: 100px;
   }
+
+  .pics {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+  }
+
+  .flex-pics {
+    width: 100%;
+    display:flex;
+    flex: 1;
+    align-items: right;
+   
+  }
+
+  .picchild {
+    margin: auto;
+  }
   
