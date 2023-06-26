@@ -7,6 +7,7 @@ html {
     width: 70px;
     height: 75px;
     padding-left: 30px;
+    
   }
   .main-img {
     width: 500px;
@@ -15,6 +16,9 @@ html {
   .pics-img {
     width: 200px;
     height: 200px;
+    border: solid;
+    border-radius: 5px;
+    border-color: grey;
   }
   
   .header {
@@ -115,7 +119,7 @@ html {
    margin: 40px 200px;
    display: flex;
    align-items: center;
-   
+   border-radius: 5px;
    
 
   }
@@ -127,8 +131,10 @@ html {
 
 .signup_t {
     color: white;
-    
+    margin-left: 200px;
 }
+
+
 
 footer {
     text-align: center;
@@ -136,11 +142,13 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .sign_up {
     
     border-radius: 8px;
 background-color: blue;
 font-size: 15px;
 padding: 5px 25px;
+color: white;
 }
 
