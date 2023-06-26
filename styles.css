@@ -16,8 +16,8 @@ html {
   }
 
   @media only screen and (max-width: 550px) {
-    #header-img {
-      width: 375px;
+    main-img {
+      width: 315px;
       height: 150px
     }}
 
@@ -43,13 +43,20 @@ html {
   
   nav > ul {
     display: flex;
+    
     flex: 1;
     justify-content: left;
-    gap: 30px;
+    gap: 3%;
     list-style: none;
     font-size: 20px;
-   padding-right: 100px;
+    padding-right: 100px;
   }
+  @media only screen and (max-width: 550px) {
+    nav > ul {
+      flex-wrap: wrap;
+    }}
+
+
   .nav-link {
     text-decoration: none;
     color: white;
