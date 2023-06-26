@@ -12,6 +12,7 @@ html {
   .main-img {
     width: 500px;
     height: 300px;
+    border-radius: 5px;
   }
   .pics-img {
     width: 200px;
