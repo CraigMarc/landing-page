@@ -10,10 +10,17 @@ html {
     
   }
   .main-img {
-    width: 450px;
-    height: 275px;
+    width: 400px;
+    height: 250px;
     border-radius: 5px;
   }
+
+  @media only screen and (max-width: 550px) {
+    #header-img {
+      width: 375px;
+      height: 150px
+    }}
+
   .pics-img {
     width: 200px;
     height: 200px;
@@ -84,8 +91,8 @@ html {
   }
 
   .flex-pics {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     display:flex;
     flex-wrap: wrap;
     flex: 1;
@@ -120,7 +127,7 @@ html {
   
   .signupclass {
    background-color: blue; 
-   margin: 5% 20%;
+   margin: 5% 15%;
    display: flex;
    align-items: center;
    border-radius: 5px;
@@ -135,7 +142,7 @@ html {
 
 .signup_t {
     color: white;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 
