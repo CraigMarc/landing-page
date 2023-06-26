@@ -1,3 +1,8 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .header-img {
     width: 70px;
     height: 75px;
@@ -32,6 +37,10 @@
     list-style: none;
     font-size: 20px;
    padding-right: 100px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white;
   }
   
   .main {
@@ -111,12 +120,14 @@
 
   }
 
-
- 
-
   
 .signup_i {
     flex: 1;
+}
+
+.signup_t {
+    color: white;
+    
 }
 
 footer {
@@ -125,3 +136,11 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.sign_up {
+    
+    border-radius: 8px;
+background-color: blue;
+font-size: 15px;
+padding: 5px 25px;
+}
+
