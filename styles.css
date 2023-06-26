@@ -10,8 +10,8 @@ html {
     
   }
   .main-img {
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 275px;
     border-radius: 5px;
   }
   .pics-img {
@@ -49,7 +49,7 @@ html {
   }
   
   .main {
-    height: 400px;
+    height: 25%;
     width: 100%;
     
     background-color: grey;
@@ -57,12 +57,14 @@ html {
   }
   
   .main-flex {
-    margin-left: 250px;
-    margin-right: 250px;
+    background-color: grey;
+   
     padding-top: 10px;
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     gap: 100px;
   }
 
@@ -85,9 +87,10 @@ html {
     margin-left: 200px;
     margin-right: 200px;
     display:flex;
+    flex-wrap: wrap;
     flex: 1;
     align-items: center;
-   
+   justify-content: center;
   }
 
   .picchild {
@@ -117,7 +120,7 @@ html {
   
   .signupclass {
    background-color: blue; 
-   margin: 40px 200px;
+   margin: 5% 20%;
    display: flex;
    align-items: center;
    border-radius: 5px;
@@ -132,7 +135,7 @@ html {
 
 .signup_t {
     color: white;
-    margin-left: 200px;
+    margin-left: 20%;
 }
 
 
