@@ -10,8 +10,8 @@ html {
     
   }
   .main-img {
-    width: 400px;
-    height: 250px;
+    width: 330px;
+    height: 200px;
     border-radius: 5px;
   }
 
@@ -141,7 +141,10 @@ html {
    
 
   }
-
+  @media only screen and (max-width: 550px) {
+    .signupclass {
+    margin: 5% 5%
+    }}
   
 .signup_i {
     flex: 1;
